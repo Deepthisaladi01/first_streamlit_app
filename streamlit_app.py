@@ -44,7 +44,6 @@ except URLError as e:
 
 #streamlit.text(fruityvice_response.json())                #just writes the data to the screen
 
-streamlit.dataframe(fruityvice_normalized)
 streamlit.stop()
 #import snowflake.connector
 
